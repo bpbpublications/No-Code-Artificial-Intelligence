@@ -1,0 +1,38 @@
+i = 10
+if (i > 100):
+ print(f'{i} is greater than 100')
+elif (i > 1):
+ print(f'{i} is greater than 1')
+else:
+ print(f'{i} is less than 1')
+
+for x in range(4):
+if x == 2:
+ break
+print(x)
+
+
+my_list = [1, 12, 3, 'hell0'] #creating list with data
+#printing each item in the list using for loop
+for item in my_list:
+ print(item) 
+
+my_dict = {} # empty dictionary
+my_dict = {1: 'Hello', 2: 'World'} # dictionary with elements
+my_dict[3] = 'Python' # Adding a new element to dictionary
+print(my_dict)
+
+
+
+
+ def addition(num1, num2):
+     result = num1 + num2
+     return result
+ print(addition(1,100))
+
+
+ import math # Import math Library
+ #Return the value of 2 raised to the power of 2
+ print(math.pow(2, 2))
+ # Return the square root of 9
+ print(math.sqrt(9))
